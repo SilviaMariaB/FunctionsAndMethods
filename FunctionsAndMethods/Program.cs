@@ -10,7 +10,16 @@ namespace FunctionsAndMethods
     {
         static void Main(string[] args)
         {
-            Exercises.MainExercises();
+            //Exercises.MainExercises();
+            //SumOfNumbers.MainSumOfNumbers();
+            //NumberOfSpaces.MainNumberOfSpaces();
+            //SwapInts.MainSwapInts();
+            //SquaredAndCubed.MainSquaredAndCubed();
+            //AreaOfTriangle.MainAreaOfTriangle();
+            //MinutesConversion.MainMinutesConversion();
+            //Factorial.MainFactorial();
+            SumOfIntArray.MainSumOfIntArray();
+           
         }
     }
 }

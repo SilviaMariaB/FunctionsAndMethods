@@ -23,11 +23,7 @@ namespace FunctionsAndMethods
             //Print(message: Introduction(), inline: true);
             //Print(inline: true, message: Goodbye());
 
-            Console.WriteLine("\nPlease insert 1st number: ");
-            int number1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Please insert 2nd number: ");
-            int number2 = Convert.ToInt32(Console.ReadLine());
+            SharedMethods.ReadTwoNumbers(out int number1, out int number2);
 
             if (Remainder(number1, number2, out int result))
             {
